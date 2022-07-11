@@ -30,9 +30,11 @@ function sumOfNumbers(arrayOfNumbers) {
  * @param {Array} arrayOfNumbers the array containing even or non-even numbers
  * @returns number the count of even numbers
  */
+var arrayOfNumbers = [1, 2, 3, 4, 5];
 function countEvenNumbers(arrayOfNumbers) {
     return arrayOfNumbers.length;
 }
+arrayOfNumbers.filter(num => num % 2)
 // assignment.countEvenNumbers = countEvenNumbers;
 
 /**

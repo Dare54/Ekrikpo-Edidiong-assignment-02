@@ -19,7 +19,7 @@ function sumOfNumbers(arrayOfNumbers) {
 }
 
   console.log(sumOfNumbers);
-// assignment.sumOfNumbers = sumOfNumbers;
+
 
 /**
  * Challenge - 2
